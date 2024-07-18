@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir as imagens de diversas formas ou aumente o tamanho do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="IMGS/img-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="IMGS/img-m.png" type="image/png">
+        <img src="IMGS/img-g.png" alt="Imagem Flexivel">
+
+    </picture>
+    <h1>Vamos reproduzir aúdio</h1>
+    <p>Aprendendo a colocar aúdios em HTML</p>
+    <audio src="midia/podcast_gua.mp3" controls autoplay> </audio>
+    <p>Vamos tocar um aúdio?</p>
+    <audio preload="auto" autoplay controls> 
+        <source src="midia/Some-college.mp3" type="audio/mpeg">
+    </audio>
+    <p>Infelizmente se seu navegador não conseguir carergar automátiamente, poderá fazer o download!!!
+        <a href="midia/Some-college.mp3"> Click aqui para o download!</a></p>
+</body>
+</html>
