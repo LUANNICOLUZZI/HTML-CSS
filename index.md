@@ -8,5 +8,10 @@
 <body>
     <h1>Bem-vindo ao meu site HTML-CSS!</h1>
     <p>Conteúdo principal vindo do README.md renderizado como index.md.</p>
+
+    <p>Exercicios:</p>
+
+    <a href="https://luannicoluzzi.github.io/HTML-CSS/ex001/index.html"></a>
+
 </body>
 </html>
